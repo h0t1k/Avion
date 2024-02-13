@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+.contaier {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 0px 80px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #2a254b;
+}
+.footer__menu {
+  max-width: 1280px;
+  display: flex;
+  gap: 130px;
+  padding: 58px 0px 48px;
+  border-bottom: 1px solid #4e4d93;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer__item {
+  color: #fff;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__item:first-child {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__link {
+  color: #fff;
+}
+.footer__label {
+  position: relative;
+}
+.footer__btn {
+  width: 118px;
+  height: 56px;
+  position: absolute;
+  border: 0;
+  background: #fff;
+  color: #2a254b;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.footer__email {
+  padding: 17px 360px 17px 32px;
+  max-width: 509px;
+  color: #fff;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 56px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.222);
+}
+.footer__menu-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+.footer__copyright {
+  color: #fff;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer__icon {
+  max-width: 24px;
+  height: 24px;
+}
+
+/*# sourceMappingURL=footer.css.map */

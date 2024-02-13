@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+.header__nav-top {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header__nav-logo {
+  color: #22202e;
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+  padding: 20px 0px;
+}
+.header__nav-item {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__nav-link {
+  color: #726e8d;
+}
+.header__nav-link:hover {
+  color: #160a5f;
+  transition: 0.7s;
+}
+.header__nav-link:active {
+  color: #f01523;
+}
+
+.icon {
+  max-width: 16px;
+  height: 16px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */
