@@ -59,9 +59,18 @@
   }
 
   &__type {
-    max-width: 135px;
     display: flex;
     gap: 12px;
+  }
+  &__input-price {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__input-desinger {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
 
   &__checkbox {
